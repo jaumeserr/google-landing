@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+header svg:nth-of-type(1) {
+    fill: #5f6368;
+    width: 24px;
+    height: 24px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header nav {
+    padding: 6px 20px;
+    height: 48px;
+}
+
+header nav div:first-child {
+    font-size: 14px;
+    align-self: center;
+}
+
+header nav div:first-child a {
+    padding: 0 5px;
+    color: #222;
+}
+
+.user-photo {
+    border-radius: 50%;
+}
+
+header nav div:last-child {
+    align-self: center;
+} 
+
+input[type="button"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.search-module {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 13px;
+}
+
+.search-module img {
+    padding-bottom: 20px;
+}
+
+.search-module div:nth-of-type(2) {
+    height: 70px;
+    padding-top: 18px;
+}
+
+.search-module div:nth-of-type(3) p a {
+    color: #1a0dab;
+    padding: 0 3px;
+}
+
+.search-module div:nth-of-type(3) p a:active {
+    color: #609;
+}
+
+.search {
+    max-width: 584px;
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search svg:nth-of-type(1) {
+   fill: #9aa0a6;
+   width: 20px;
+   height: 20px;
+}
+
+.search svg:nth-of-type(2) {
+    width: 24px;
+    height: 24px;
+}
+
+.search input[type="text"] {
+    width: 100%;
+    margin: 0 10px;
+    border: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.search input[type="text"]:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+/* footer div:nth-of-type(1) {
+    background-color: red;
+    padding: 6px;
+} */
+
+footer nav {
+    background-color: #f2f2f2;
+}
