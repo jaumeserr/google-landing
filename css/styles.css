@@ -186,17 +186,17 @@ footer a {
     color: #70757a; 
 }
 
-footer nav {
-    height: 40px;
-    align-items: center;
-    border-top: 1px solid #dadce0;
-}
-
-footer div:first-child {
+footer > div {
     height: 40px;
     align-items: center;
     display: flex;
     margin-left: 30px;
+}
+
+footer nav {
+    height: 40px;
+    align-items: center;
+    border-top: 1px solid #dadce0;
 }
 
 footer nav div a {
